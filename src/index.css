@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 
+@font-face {
+  font-family: 'mononoki';
+  src: local('mononoki'), url(../fonts/mononoki_nerd.ttf) format('truetype');
+}
+
+.font_nerd{
+  font-family: mononoki, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,9 +17,9 @@
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #c59090 -278.56%,
+    #7f0404 -78.47%,
+    #100d39 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -33,7 +43,36 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+.text-gradient-2 {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 55%,
+    #bde239 0.89%,
+    #39e271 17.23%,
+    #394ae2 42.04%,
+    #2f506c 55.12%,
+    #9b299f 71.54%,
+    #dc39e2 100%
+  );
 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-gradient-3 {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 55%,
+    #e66f0e 0.89%,
+    #90e239 17.23%,
+    #47b860 42.04%,
+    #286ca9 55.12%,
+    #7c146f 71.54%,
+    #d62727 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -112,17 +151,7 @@
   box-shadow: var(--card-shadow);
 }
 
-.feedback-container .feedback-card:last-child {
-  margin-right: 0px;
-}
 
-.feedback-card {
-  background: transparent;
-}
-
-.feedback-card:hover {
-  background: var(--black-gradient);
-}
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
@@ -137,4 +166,7 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+.Beau-font{
+  font-family: 'Beau Rivage', cursive;
 }

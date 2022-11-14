@@ -1,5 +1,14 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, Cat_synthwave, Hacker_cat } from "../assets";
 
+export const hero = [
+  {
+    id: "title",
+    img: Cat_synthwave,
+    title: "Generalist Programmer",
+    content: "Driven autodidact seeking a fast-paced learning environment where I can continue to improve my problem-solving ability working as a software developer. My coding style is Language-Agnostic. Can do Front-end, Backend, and Linux sytem administration. Willing to learn anything you have to teach!",
+    img2: Hacker_cat,
+  }
+]
 export const navLinks = [
   {
     id: "home",
@@ -19,56 +28,30 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const reasons = [
   {
-    id: "feature-1",
+    id: "reason-1",
     icon: star,
-    title: "Rewards",
+    title: "Autodidact",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Give me time to learn and I can teach myself",
   },
   {
-    id: "feature-2",
+    id: "reason-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Adaptable",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "I love trying new things, and welcome challenges with open arms",
   },
   {
-    id: "feature-3",
+    id: "reason-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Team player",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Work well in a team enviroment, ",
   },
 ];
 
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-];
 
 export const stats = [
   {
@@ -215,6 +198,39 @@ export const projects = [
   // },
   {
     id: "Community",
+    img: star,
+    title: "Rewards",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    links: [
+      {
+        name: "Help Center",
+        link: "https://www.example.com/help-center/",
+      },
+      {
+        name: "Partners",
+        link: "https://www.example.com/partners/",
+      },
+      {
+        name: "Suggestions",
+        link: "https://www.example.com/suggestions/",
+      },
+      {
+        name: "Blog",
+        link: "https://www.example.com/blog/",
+      },
+      {
+        name: "Newsletters",
+        link: "https://www.example.com/newsletters/",
+      },
+    ],
+  },
+  {
+    id: "Commy",
+    img: star,
+    title: "Rewards",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
     links: [
       {
         name: "Help Center",

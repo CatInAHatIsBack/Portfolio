@@ -1,9 +1,9 @@
-import { features } from "../constants";
+import { reasons } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
+  <div className={`flex flex-row p-6 rounded-[20px] ${index !== reasons.length - 1 ? "mb-6" : "mb-0"} feature-card transition duration-250 hover:scale-110`}>
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
@@ -19,11 +19,12 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () =>  (
-  <section id="features" className={layout.section}>
+  <div className={`${styles.paddingX} `}>
+
+  <section id="Reasons" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Why you should Hire Cat<br className="sm:block hidden" /> for Your Project
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         With the right credit card, you can improve your financial life by
@@ -34,12 +35,13 @@ const Business = () =>  (
       <Button styles={`mt-10`} />
     </div>
 
-    <div className={`${layout.sectionImg} flex-col`}>
-      {features.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
+    <div className={`${layout.sectionImg} flex-col `}>
+      {reasons.map((reason, index) => (
+        <FeatureCard key={reason.id} {...reason} index={index} />
       ))}
     </div>
   </section>
+  </div>
 );
 
 export default Business

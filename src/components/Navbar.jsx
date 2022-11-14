@@ -1,13 +1,21 @@
 import { useState } from 'react'
 
-import { close, logo, menu } from '../assets'
+import { close, Cat_logo, menu } from '../assets'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar"> 
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]"/>
+      <a href="#home">
+      <img src={Cat_logo}  alt="Cat_logo" className="w-[64px] h-[64px] rounded-full"/>
+      </a>
+      {/* 
+        Font Choices:
+          font_nerd
+          Beau-font
+      */}
+      <span className='pl-5 text-[20px]  Beau-font '>Cat In A Hat Is Back</span>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

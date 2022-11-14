@@ -1,25 +1,18 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
 import Business from "./Business";
-import Clients from "./Clients";
-import CTA from "./CTA";
-import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Projects from "./Projects";
+import Wave_bot from "./Wave_bot";
+import Wave_top from "./Wave_top";
 
 export {
   Navbar,
-  Billing,
-  CardDeal,
-  Clients,
   Business,
-  CTA,
-  Stats,
   Footer,
-  Testimonials,
   Hero,
-  Projects
+  Projects,
+  Wave_bot,
+  Wave_top,
+
 };

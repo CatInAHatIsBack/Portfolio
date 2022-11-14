@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style'
 
-import { Navbar, Hero, Business, Billing , CardDeal, Testimonials, Clients, CTA, Footer, Stats, Projects} from './components'
+import { Navbar, Hero, Business, Footer, Projects,Wave_bot, Wave_top} from './components'
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -15,20 +15,29 @@ const App = () => (
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero/>
+        <Wave_bot/>
       </div>
     </div>
-
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+  {/* paddingX shortens width */} 
+    <div className={`bg-primary  ${styles.flexStart} relative w-full`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats/>
+        {/* <Stats/> */}
+
+        <Wave_top className="absolute"/>
         <Projects/>
+        <Wave_bot/>
+        <Wave_top/>
         <Business/>
-        <Billing/>
-        <CardDeal/>
-        <Testimonials/>
-        <Clients/>
-        <CTA/>
+        <Wave_bot/>
+        <Wave_top/>
+        {/* <Billing/> */}
+        {/* <CardDeal/> */}
+        {/* <Testimonials/> */}
+        {/* <Clients/> */}
+        {/* <CTA/> */}
+       {/* <Wave/> */}
         <Footer/>
+       
       </div>
     </div> 
 
