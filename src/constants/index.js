@@ -124,7 +124,7 @@ export const socialMedia = [
   {
     id: "SocialMedia_Linkedin",
     icon: linkedin,
-    link: "www.linkedin.com/in/rasmus-steinsvik",
+    link: "https://linkedin.com/in/rasmus-steinsvik",
   },
   {
     id: "SocialMedia_Github",

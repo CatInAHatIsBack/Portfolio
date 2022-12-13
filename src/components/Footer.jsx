@@ -1,6 +1,6 @@
 import styles from "../style";
 import { logo, Cat_logo } from "../assets";
-import { footerLinks, socialMedia } from "../constants";
+import { socialMedia } from "../constants";
 
 const Footer = () => (
   <div className={`${styles.paddingX} `} id="links">
