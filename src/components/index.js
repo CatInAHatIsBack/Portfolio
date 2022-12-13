@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Projects from "./Projects";
 import Wave_bot from "./Wave_bot";
 import Wave_top from "./Wave_top";
+import HireMe from "./HireMe"
 
 export {
   Navbar,
@@ -14,5 +15,5 @@ export {
   Projects,
   Wave_bot,
   Wave_top,
-
+  HireMe,
 };

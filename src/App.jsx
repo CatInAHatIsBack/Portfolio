@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style'
 
-import { Navbar, Hero, Business, Footer, Projects,Wave_bot, Wave_top} from './components'
+import { Navbar, Hero, Business, Footer, Projects,Wave_bot, Wave_top, HireMe} from './components'
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -30,6 +30,9 @@ const App = () => (
         <Business/>
         <Wave_bot/>
         <Wave_top/>
+        <HireMe/>
+        <Wave_bot/>
+        <Wave_top/> 
         {/* <Billing/> */}
         {/* <CardDeal/> */}
         {/* <Testimonials/> */}

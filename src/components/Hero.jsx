@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import {discount, robot} from '../assets'
+import {discount} from '../assets'
 import GetStarted from './GetStarted'
 import { hero } from "../constants"
 import './styling.css'

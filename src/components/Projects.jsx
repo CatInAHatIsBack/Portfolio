@@ -10,13 +10,13 @@ const Feat = ({feature}) =>
     </div>
 )
 
-const Project = ({links, img, title, content}) => 
+const Project = ({bubbles, img, title, content, link}) => 
     
     (
     // <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-
+        <a href={link} target="_blank" rel="noopener noreferrer">
         <div className=" overflow-hidden shadow-lg rounded-[20px] feature-card mt-6 transition duration-250 hover:scale-110">
-            <img className="w-10/12 ml-auto mr-auto" src={img} alt="Mountain"/>
+            <img className="w-full ml-auto mr-auto rounded-b-lg " src={img} alt="Mountain"/>
             <div className="px-6 py-4">
             <div className="font-poppins font-semibold text-white text-xl mb-2">{title}</div>
             <p className="font-poppins font-normal text-dimWhite text-[18px] text-base">
@@ -24,7 +24,7 @@ const Project = ({links, img, title, content}) =>
             </p>
             </div>
             <div className="px-6 pt-4 pb-2 flex flex-wrap">
-                {links.map((feature, index) => 
+                {bubbles.map((feature, index) => 
                 // console.log(feature.link)
                 (
                     <Feat key={feature.name} feature={feature.name} />
@@ -33,11 +33,12 @@ const Project = ({links, img, title, content}) =>
                 {/* <feat key="He" {...links} /> */}
             </div>
         </div>
+        </a>
     // </div>
 )
 
 const Projects = () => (
-    <div className={`${styles.paddingX} `}>
+    <div className={`${styles.paddingX}`} id="projects">
 <div className="px-10 py-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>

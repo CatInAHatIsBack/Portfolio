@@ -21,18 +21,16 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () =>  (
   <div className={`${styles.paddingX} `}>
 
-  <section id="Reasons" className={layout.section}>
+  <section id="about" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Why you should Hire Cat<br className="sm:block hidden" /> for Your Project
+        Why you should Hire Cat for Your Project
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+       Personal characteristics that would make me a great fit for your team!
       </p>
 
-      <Button styles={`mt-10`} />
+      {/* <Button styles={`mt-10`} /> */}
     </div>
 
     <div className={`${layout.sectionImg} flex-col `}>
