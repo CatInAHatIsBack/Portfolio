@@ -24,7 +24,7 @@ const Business = () =>  (
   <section id="about" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Why you should Hire Cat for Your Project
+        Characteristics 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
        Personal characteristics that would make me a great fit for your team!

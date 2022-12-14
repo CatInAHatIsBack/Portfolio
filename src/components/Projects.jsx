@@ -42,12 +42,10 @@ const Projects = () => (
 <div className="px-10 py-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Projects You might find Interesting
+        Projects
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+        A collection of personal & professional projects 
       </p>
 
     </div>

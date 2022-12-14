@@ -1,11 +1,11 @@
-import {  linkedin, github, airbnb, send, shield, star, Cat_synthwave, Hacker_cat, sun, sun2, url_opener, portfolio_website, Con_Sync, scraper_output, DSA, Handshake, Adaptable, Autodidact, Code, Tutoring, Personal_Trainer} from "../assets";
+import {  linkedin, github, airbnb, send, shield, star, Cat_synthwave, Hacker_cat, sun, sun2, url_opener, portfolio_website, Con_Sync, scraper_output, DSA, Handshake, Adaptable, Autodidact, Code, Tutoring, Personal_Trainer, Google_Foobar} from "../assets";
 
 export const hero = [
   {
     id: "title",
     img: Cat_synthwave,
     title: "Generalist Programmer",
-    content: "Driven autodidact seeking a fast-paced learning environment where I can continue to improve my problem-solving ability working as a software developer. My coding style is Language-Agnostic. Can do Front-end, Back-end, and Linux system administration. Willing to learn anything you have to teach!",
+    content: "Driven autodidact seeking a fast-paced learning environment. Looking to improve my problem-solving ability by working as a software developer. My coding style is Language-Agnostic. Can do Front-end, Back-end, and Linux system administration. Willing to learn anything you have to teach!",
     img2: Hacker_cat,
   }
 ]
@@ -24,7 +24,7 @@ export const navLinks = [
   },
   {
     id: "hire_me",
-    title: "Hire Me",
+    title: "Services",
   },
   {
     id: "links",
@@ -159,7 +159,7 @@ export const projects = [
     title: "Portfolio website",
     link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
     content:
-      "My personal portfolio",
+      "My personal portfolio website",
     bubbles: [
       {
         name: "JavaScript",
@@ -176,12 +176,12 @@ export const projects = [
     ],
   },
   {
-    id: "Concentrated Solar",
+    id: "Concentrated_Solar",
     img: sun,
     title: "Concentrated Solar visualization",
     link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
     content:
-      "A THREE.js simulation of a Concentrated Solar plant. You give the (azimuth, altitude) for the mirror and the sun. It will then show you if the angles are correct, and the mirror reflects the sun to the tower.",
+      "A THREE.js simulation of a Concentrated Solar plant. Given the azimuth, altitude for the mirror and the sun, It will then show you if the mirror reflects the sun to the tower.",
     bubbles: [
       {
         name: "Three.js",
@@ -195,9 +195,36 @@ export const projects = [
       {
         name: "Trigonometry",
       },
+    ],
+  },
+  {
+    id: "Foobar",
+    img: Google_Foobar,
+    title: "Google foobar",
+    link: "https://github.com/CatInAHatIsBack/My_Google_Foobar",
+    content:
+      "A google invitation only challenge. Solving difficult problems related to Computer Science",
+    bubbles: [
       {
-        name: "vite",
+        name: "Java",
       },
+      {
+        name: "Graph Theory",
+      },
+      {
+        name: "APSP",
+      },
+      {
+        name: "Network Flow",
+      },
+      {
+        name: "Floyd–Warshall Algorithm",
+      },
+     
+      {
+        name: "Dinic's Algorithm",
+      },
+      
     ],
   },
   {
@@ -205,7 +232,8 @@ export const projects = [
     img: Con_Sync,
     title: "Config Syncer",
     content:
-      "When distro hopping, finding and transfering all config files can be timeconsuming and annoying. This Linux terminal program gets the locations of files and folders you wish to sync and stores them in a file. It then Rsyncs paths to a shared folder under specified directory, and commits to github.",
+
+      "When distro hopping, finding and transfering all config files can be timeconsuming and annoying. This Linux terminal program takes the locations of files and folders, Rsyncs to a shared folder under specified directory, and commits to github.",
     bubbles: [
       {
         name: "Bash",
@@ -230,7 +258,7 @@ export const projects = [
     title: "Airbnb Scraper",
     link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
     content:
-      "Web Scraper for Airbnb listing inaccuracies. \n ",
+      "Web Scraper for Airbnb listing inaccuracies. ",
     bubbles: [
       {
         name: "Python3",
@@ -255,7 +283,7 @@ export const projects = [
     title: "Bulk URL Opener",
     link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
     content:
-      "A chrome extension that lets you open multiple urls, or save them to bookmarks",
+      "A chrome extension that lets you open or save multiple urls to bookmarks",
     bubbles: [
       {
         name: "JavaScript",
@@ -324,7 +352,7 @@ export const reasons = [
     icon: Handshake,
     title: "Team player",
     content:
-      "Work well in a team enviroment, ",
+      "Work well in a team enviroment, and love to learn from others",
   },
 ];
 

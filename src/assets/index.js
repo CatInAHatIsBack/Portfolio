@@ -28,7 +28,7 @@ import Autodidact from "./Autodidact.png"
 import Code from "./Code.png"
 import Tutoring from "./Tutoring.png"
 import Personal_Trainer from "./Personal_Trainer.png"
-
+import Google_Foobar from "./Google_Foobar.png"
 export {
   airbnb,
   logo,
@@ -60,4 +60,5 @@ export {
   Code,
   Tutoring,
   Personal_Trainer,
+  Google_Foobar
 };

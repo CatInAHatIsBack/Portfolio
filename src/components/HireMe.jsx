@@ -27,12 +27,11 @@ const My_text = () =>  (
   <div className={layout.sectionTxt}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Hire Cat<br className="sm:block hidden" />
+        Services<br className="sm:block hidden" />
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        These are the services I offer. <br/>
-        <br/>
-        To contact for any of the services, just click the service you need.
+        To contact,<br/> 
+        click a service.
       </p>
 
       {/* <Button styles={`mt-10`} /> */}
@@ -43,7 +42,7 @@ const My_text = () =>  (
 const HireMe = () =>  (
   <div className={`${styles.paddingX} mb-10 `}>
 
-  <section id="hire_me" className={layout.section}>
+  <section id="services" className={layout.section}>
     
     <div className={`${layout.sectionImgs} flex-col`}>
       {offer.map((reason, index) => (
