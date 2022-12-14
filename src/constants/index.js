@@ -1,4 +1,4 @@
-import {  linkedin, github, airbnb, send, shield, star, Cat_synthwave, Hacker_cat, sun, sun2, url_opener, portfolio_website, Con_Sync, scraper_output, DSA, Handshake, Adaptable, Autodidact, Code, Tutoring, Personal_Trainer, Google_Foobar} from "../assets";
+import {  linkedin, github, Cat_synthwave, Hacker_cat, sun, url_opener, portfolio_website, Con_Sync, scraper_output, DSA, Handshake, Adaptable, Autodidact, Code, Tutoring, Personal_Trainer, Google_Foobar} from "../assets";
 
 export const hero = [
   {
