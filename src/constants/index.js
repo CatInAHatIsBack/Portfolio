@@ -1,4 +1,4 @@
-import {  linkedin, github, Cat_synthwave, Hacker_cat, sun, url_opener, portfolio_website, Con_Sync, scraper_output, DSA, Handshake, Adaptable, Autodidact, Code, Tutoring, Personal_Trainer, Google_Foobar} from "../assets";
+import {  linkedin, github, Cat_synthwave, Hacker_cat, sun, url_opener, portfolio_website, Con_Sync, scraper_output, DSA, Handshake, Adaptable, Autodidact, Code, Tutoring, Personal_Trainer, Google_Foobar, sudoku_react} from "../assets";
 
 export const hero = [
   {
@@ -153,28 +153,7 @@ export const socialMedia = [
 // ];
 
 export const projects = [
-  {
-    id: "portfolio",
-    img: portfolio_website,
-    title: "Portfolio website",
-    link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
-    content:
-      "My personal portfolio website",
-    bubbles: [
-      {
-        name: "JavaScript",
-      },
-      {
-        name: "Vite",
-      },
-      {
-        name: "React",
-      },
-      {
-        name: "Tailwindcss",
-      },
-    ],
-  },
+  
   {
     id: "Concentrated_Solar",
     img: sun,
@@ -182,6 +161,7 @@ export const projects = [
     link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
     content:
       "A THREE.js simulation of a Concentrated Solar plant. Given the azimuth, altitude for the mirror and the sun, It will then show you if the mirror reflects the sun to the tower.",
+    span: 2,
     bubbles: [
       {
         name: "Three.js",
@@ -198,12 +178,39 @@ export const projects = [
     ],
   },
   {
+    id: "config_sync",
+    img: Con_Sync,
+    title: "Config Syncer",
+    content:
+
+      "When distro hopping, finding and transfering all config files can be timeconsuming and annoying. This Linux terminal program takes the locations of files and folders, Rsyncs to a shared folder under specified directory, and commits to github.",
+    span: 1,
+    bubbles: [
+      {
+        name: "Bash",
+      },
+      {
+        name: "R-sync",
+      },
+      {
+        name: "Parsing",
+      },
+      {
+        name: "Terminal",
+      },
+      {
+        name: "Automation",
+      },
+    ],
+  },
+  {
     id: "Foobar",
     img: Google_Foobar,
     title: "Google foobar",
     link: "https://github.com/CatInAHatIsBack/My_Google_Foobar",
     content:
       "A google invitation only challenge. Solving difficult problems related to Computer Science",
+    span: 1,
     bubbles: [
       {
         name: "Java",
@@ -227,31 +234,7 @@ export const projects = [
       
     ],
   },
-  {
-    id: "config_sync",
-    img: Con_Sync,
-    title: "Config Syncer",
-    content:
-
-      "When distro hopping, finding and transfering all config files can be timeconsuming and annoying. This Linux terminal program takes the locations of files and folders, Rsyncs to a shared folder under specified directory, and commits to github.",
-    bubbles: [
-      {
-        name: "Bash",
-      },
-      {
-        name: "R-sync",
-      },
-      {
-        name: "Parsing",
-      },
-      {
-        name: "Terminal",
-      },
-      {
-        name: "Automation",
-      },
-    ],
-  },
+  
   {
     id: "airbnb",
     img: scraper_output,
@@ -259,6 +242,7 @@ export const projects = [
     link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
     content:
       "Web Scraper for Airbnb listing inaccuracies. ",
+    span: 2,
     bubbles: [
       {
         name: "Python3",
@@ -284,6 +268,7 @@ export const projects = [
     link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
     content:
       "A chrome extension that lets you open or save multiple urls to bookmarks",
+    span: 1,
     bubbles: [
       {
         name: "JavaScript",
@@ -306,6 +291,7 @@ export const projects = [
     link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
     content:
       "Scraper for Airbnb listing inaccuracies. \n ",
+    span: 2,
     bubbles: [
       {
         name: "Java",
@@ -327,6 +313,54 @@ export const projects = [
       },
       {
         name: "Matrix",
+      },
+    ],
+  },
+];
+export const projectsBig = [
+  {
+    id: "portfolio",
+    img: portfolio_website,
+    title: "Portfolio website",
+    link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
+    content:
+      "My personal portfolio website",
+    span: 2,
+    bubbles: [
+      {
+        name: "JavaScript",
+      },
+      {
+        name: "Vite",
+      },
+      {
+        name: "React",
+      },
+      {
+        name: "Tailwindcss",
+      },
+    ],
+  },
+  {
+    id: "sudoku",
+    img: sudoku_react,
+    title: "Sudoku solver react",
+    link: "https://github.com/CatInAHatIsBack/Airbnb_Listing_Inaccuracy_Scraper/tree/master",
+    content:
+      "My personal portfolio website",
+    span: 3,
+    bubbles: [
+      {
+        name: "JavaScript",
+      },
+      {
+        name: "Vite",
+      },
+      {
+        name: "React",
+      },
+      {
+        name: "Tailwindcss",
       },
     ],
   },
@@ -387,3 +421,4 @@ export const mailing = [
     email: "CatInAHatIsBack@gmail.com"
   }
 ];
+

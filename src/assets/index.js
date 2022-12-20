@@ -20,6 +20,8 @@ import Code from "./Code.png"
 import Tutoring from "./Tutoring.png"
 import Personal_Trainer from "./Personal_Trainer.png"
 import Google_Foobar from "./Google_Foobar.png"
+import sudoku_react from "./sudoku_react.png"
+
 export {
   logo,
   menu,
@@ -42,5 +44,6 @@ export {
   Code,
   Tutoring,
   Personal_Trainer,
-  Google_Foobar
+  Google_Foobar,
+  sudoku_react,
 };
